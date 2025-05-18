@@ -61,6 +61,13 @@ Aplicatia a fost testata functional, structural si prin testare de mutanti.
 -  **Mutation Coverage:** 93%
 -  **Test Strength:** 100%
 
+### Testare structurala (verifica logica interna a codului)
+
+Exemplu functionare test 1:
+
+<img width="433" alt="image" src="https://github.com/user-attachments/assets/8b6759fd-21a1-4c9b-90b1-c46f9962f0b8" />
+
+
 ## Diagrame
 
 
