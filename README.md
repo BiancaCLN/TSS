@@ -82,14 +82,9 @@ Exemplu functionare test 1:
 Pentru evaluare comparativa:
 - Am generat o suita de teste `MesajTestAI.java` cu ChatGPT.
 - Le-am comparat cu testele scrise manual (`MesajTest.java`).
-- Am inclus capturi si rezultate in ``.
 
-## Capturi de ecran
-
-Capturi relevante se gasesc in ``:
-- Rezultate rulate in IntelliJ
-- Rapoarte HTML PITest (`index.html`)
-- Comparatii intre teste AI vs umane
+AI PIT
+<img width="943" alt="image" src="https://github.com/user-attachments/assets/3db98584-5751-4e7b-981b-dd0053e3ed16" />
 
 ## 📖 Bibliografie
 
