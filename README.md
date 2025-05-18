@@ -71,7 +71,7 @@ Pentru evaluare comparativa:
 - Le-am comparat cu testele scrise manual (`MesajTest.java`).
 - Am inclus capturi si rezultate in ``.
 
-## 📷 Capturi de ecran
+## Capturi de ecran
 
 Capturi relevante se gasesc in ``:
 - Rezultate rulate in IntelliJ
