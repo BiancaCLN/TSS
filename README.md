@@ -61,10 +61,10 @@ Aplicatia a fost testata functional, structural si prin testare de mutanti.
 -  **Mutation Coverage:** 93%
 -  **Test Strength:** 100%
 
-## 📂 Diagrame
+## Diagrame
 
 
-## 🤖 AI in testare
+## AI in testare
 
 Pentru evaluare comparativa:
 - Am generat o suita de teste `MesajTestAI.java` cu ChatGPT.
