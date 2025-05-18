@@ -83,6 +83,9 @@ Pentru evaluare comparativa:
 - Am generat o suita de teste `MesajTestAI.java` cu ChatGPT.
 - Le-am comparat cu testele scrise manual (`MesajTest.java`).
 
+Rezultate Teste in PIT
+<img width="936" alt="image" src="https://github.com/user-attachments/assets/aa408241-cf87-444c-a3b8-cfe9b3a247d5" />
+
 AI PIT
 <img width="943" alt="image" src="https://github.com/user-attachments/assets/3db98584-5751-4e7b-981b-dd0053e3ed16" />
 
