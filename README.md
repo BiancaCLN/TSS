@@ -67,8 +67,14 @@ Exemplu functionare test 1:
 
 <img width="433" alt="image" src="https://github.com/user-attachments/assets/8b6759fd-21a1-4c9b-90b1-c46f9962f0b8" />
 
-
-## Diagrame
+| Nr. Test | Descriere                           | Input                               | Asteptat                               | Rezultat          |
+|----------|-------------------------------------|-------------------------------------|----------------------------------------|-------------------|
+| 1        | Codificare + decodificare simetrică | "Salut, Ana! Ne vedem la 18:30."    | Mesajul inițial filtrat                | Bine decodificat  |
+| 2        | Validare mesaj gol                  | ""                                  | Invalid                                | Invalidat corect  | 
+| 3        | Codificare NULL                     | null                                | null                                   | null              |
+| 4        | Codificare mesaj cu simboluri       | "Test@#$%"                          | Doar "Test" codificat                  | Doar "Test"       | 
+| 5        | Decriptare text corupt              | Cod criptat modificat               | Decriptare greșită                     | Decriptare eșuată |    
+<img width="839" alt="image" src="https://github.com/user-attachments/assets/0baa7151-e8d4-44ae-90cd-7928d2dde439" />
 
 
 ## AI in testare
