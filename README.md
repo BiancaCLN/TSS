@@ -76,7 +76,7 @@ Exemplu functionare test 1:
 | 5        | Decriptare text corupt              | Cod criptat modificat               | Decriptare greșită                     | Decriptare eșuată |    
 <img width="839" alt="image" src="https://github.com/user-attachments/assets/0baa7151-e8d4-44ae-90cd-7928d2dde439" />
 
-### 1. Testare Functionala --continuare
+### 2. Testare Functionala --continuare
 
 ## AI in testare
 
