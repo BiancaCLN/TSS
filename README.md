@@ -62,10 +62,10 @@ Aplicatia a fost testata functional, structural si prin testare de mutanti.
 -  **Test Strength:** 100%
 
 ## 1. Testare Structurala (verifica logica interna a codului)
-
+### 1. Transformare in graf orientat (CFG)
 <img width="404" alt="image" src="https://github.com/user-attachments/assets/92795aac-e9c2-4f92-a491-c5586616764a" />
 
-## 2. Statement Coverage
+### 2. Statement Coverage
 
 Se verifica daca fiecare instructiune a fost executata cel putin o data.
 
@@ -81,7 +81,7 @@ Se verifica daca fiecare instructiune a fost executata cel putin o data.
 
 ---
 
-## 3. Branch / Decision Coverage
+### 3. Branch / Decision Coverage
 
 Se verifica daca fiecare decizie (if/for) ia ambele valori: true si false.
 
@@ -98,7 +98,7 @@ Se verifica daca fiecare decizie (if/for) ia ambele valori: true si false.
 
 ---
 
-## 4. Condition Coverage
+### 4. Condition Coverage
 
 Se testeaza fiecare sub-conditie dintr-o expresie compusa, sa fie atat true cat si false.
 
@@ -114,7 +114,7 @@ Se testeaza fiecare sub-conditie dintr-o expresie compusa, sa fie atat true cat 
 
 ---
 
-## 5. Condition/Decision Coverage
+### 5. Condition/Decision Coverage
 
 Se verifica atat conditiile individuale cat si rezultatul deciziei in ansamblu.
 
@@ -131,7 +131,7 @@ Se verifica atat conditiile individuale cat si rezultatul deciziei in ansamblu.
 
 ---
 
-## 6. Multiple Condition Coverage
+### 6. Multiple Condition Coverage
 
 Toate combinatiile posibile ale conditiilor individuale.
 
@@ -147,7 +147,7 @@ Toate combinatiile posibile ale conditiilor individuale.
 
 ---
 
-## 7. MC/DC (Modified Condition/Decision Coverage)
+### 7. MC/DC (Modified Condition/Decision Coverage)
 
 Verifica daca fiecare conditie influenteaza rezultatul deciziei in mod individual.
 
@@ -163,7 +163,7 @@ Verifica daca fiecare conditie influenteaza rezultatul deciziei in mod individua
 
 ---
 
-## 8. Testarea circuitelor independente
+### 8. Testarea circuitelor independente
 
 Baza de circuite acoperita cu:
 
@@ -183,7 +183,7 @@ Baza de circuite acoperita cu:
 
 ---
 
-## 9. Path Coverage
+### 9. Path Coverage
 
 Am acoperit toate caile logice importante:
 
