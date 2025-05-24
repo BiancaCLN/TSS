@@ -62,7 +62,7 @@ Aplicatia a fost testata functional, structural si prin testare de mutanti.
 -  **Test Strength:** 100%
 
 ## 1. Testare Structurala (verifica logica interna a codului)
-### 1. Transformare in graf orientat (CFG)
+### 1. Transformare in graf orientat
 <img width="404" alt="image" src="https://github.com/user-attachments/assets/92795aac-e9c2-4f92-a491-c5586616764a" />
 
 ### 2. Statement Coverage
