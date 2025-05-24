@@ -47,7 +47,7 @@ O clasa de testare pentru operatii pe stringuri:
 
 ### 3. `Main`
 
-- Contine `main(String[] args)` unde este testata functionalitatea criptarii si decriptarii pe un mesaj.
+- Contine `main(String[] args)` unde se apeleaza metodele.
 
 ---
 
