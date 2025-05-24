@@ -4,21 +4,29 @@
 
 Acest proiect Java implementeaza un sistem simplu de criptare simetrica a mesajelor, impreuna cu mai multe teste unitare si de mutatie. Codul include atat functii de criptare, cat si teste detaliate pentru validarea comportamentului corect.
 
-## Detalii tehnice
+## Configurația hardware
 
-- **Limbaj:** Java 19
-- **Tool-uri utilizate:** IntelliJ IDEA, Maven, JUnit 5, PITest
-- **Versiune Maven Plugin PITest:** `1.15.2`
-- **Am utilizat IntelliJ IDEA direct pe MacOS, fara masina virtuala.**
-  
-## Configuratia sistemului de testare
+- **Sistem de operare:** macOS 15.4.1 (Apple Silicon – arhitectura `aarch64`)
+- **Procesor:** Apple M1
+- **Memorie RAM:** 8 GB
+- **Masina virtuala:** Nu a fost utilizata; testele au fost rulate local, direct pe sistemul nativ.
 
-- **Sistem de operare:** Windows 11 / macOS Ventura / Ubuntu 22.04
-- **RAM:** 16 GB
-- **Procesor:** Intel i5 / M1 / Ryzen 5
-- **JVM:** OpenJDK 19
-- **Build tool:** Maven 3.9.x
-- **IDE:** IntelliJ IDEA 2023.x
+## Configurația software
+
+- **IDE:** IntelliJ IDEA 2022.3.1 (Ultimate Edition)
+- **Build:** #IU-223.8214.52 (20 decembrie 2022)
+- **JVM intern IDE:** OpenJDK 17.0.5 (JetBrains runtime)
+- **Limbaj utilizat:** Java 19
+- **Build tool:** Apache Maven 3.9.9
+- **Instrumente de testare:** JUnit 5, PITest (versiunea pluginului: 1.15.2)
+- **Tool pentru diagrame:** diagrams.net
+
+## Configurația hardware
+
+- **Sistem de operare:** macOS 15.4.1
+- **Procesor:** Apple M1 (arhitectura aarch64)
+- **Memorie RAM:** 8 GB
+- **Masina virtuala:** Nu a fost utilizata; toate testele au fost rulate local, direct pe sistemul nativ.
 
 ---
 
@@ -33,7 +41,6 @@ Aceasta clasa contine toata logica de criptare si decriptare a mesajelor text.
 - Metoda `filtru(String mesaj)` elimina orice caracter care nu face parte din alfabetul romanesc.
 <img width="397" alt="image" src="https://github.com/user-attachments/assets/1a8fe32d-3dde-4eb9-8b42-e193262d6c6e" />
 
-#### Diagrama a fost realizata cu [app.diagrams.net](https://app.diagrams.net), conform cerintelor.
 ---
 
 ### 2. `Functii`
