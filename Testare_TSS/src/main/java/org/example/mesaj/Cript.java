@@ -7,7 +7,7 @@ public class Cript {
         for (int i = 0; i < mesaj.length(); i++) {
             suma += mesaj.charAt(i);
         }
-        return suma % ALFABET.length(); // cheia e între 0 și lungimea alfabetului
+        return suma % ALFABET.length(); // cheia e intre 0 și lungimea alfabetului
     }
 
     public static String filtru(String mesaj) {
