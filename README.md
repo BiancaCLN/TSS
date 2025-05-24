@@ -6,10 +6,10 @@ Acest proiect Java implementeaza un sistem simplu de criptare simetrica a mesaje
 
 ## Configurația hardware
 
-- **Sistem de operare:** macOS 15.4.1 (Apple Silicon – arhitectura `aarch64`)
-- **Procesor:** Apple M1
+- **Sistem de operare:** macOS 15.4.1
+- **Procesor:** Apple M1 (arhitectura aarch64)
 - **Memorie RAM:** 8 GB
-- **Masina virtuala:** Nu a fost utilizata; testele au fost rulate local, direct pe sistemul nativ.
+- **Masina virtuala:** Nu a fost utilizata; toate testele au fost rulate local, direct pe sistemul nativ.
 
 ## Configurația software
 
@@ -20,13 +20,6 @@ Acest proiect Java implementeaza un sistem simplu de criptare simetrica a mesaje
 - **Build tool:** Apache Maven 3.9.9
 - **Instrumente de testare:** JUnit 5, PITest (versiunea pluginului: 1.15.2)
 - **Tool pentru diagrame:** diagrams.net
-
-## Configurația hardware
-
-- **Sistem de operare:** macOS 15.4.1
-- **Procesor:** Apple M1 (arhitectura aarch64)
-- **Memorie RAM:** 8 GB
-- **Masina virtuala:** Nu a fost utilizata; toate testele au fost rulate local, direct pe sistemul nativ.
 
 ---
 
