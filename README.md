@@ -164,11 +164,13 @@ Toate combinatiile posibile ale conditiilor individuale.
 
 ### Tabel Multiple Conditions
 
-| Test       | C1: criptat == null | C2: criptat.length() == 0 | C1 || C2 | Comentariu                      |
-|------------|----------------------|----------------------------|----------|---------------------------------|
-| test13     | true                 | -                          | true     | return null                     |
-| test5      | false                | true                       | true     | return null                     |
-| test1      | false                | false                      | false    | se executa codificarea completa |
+
+| Test    | C1: criptat == null | C2: criptat.length() == 0 | C1 || C2 | Comentariu                         |
+|---------|---------------------|----------------------------|----------|------------------------------------|
+| test13  | true                | -                          | true     | criptat este null → return null    |
+| test5   | false               | true                       | true     | mesaj gol → return null            |
+| test1   | false               | false                      | false    | se executa codificarea completa    |
+
 
 **Acoperire:** 100% (toate combinatiile de valori acoperite)
 
