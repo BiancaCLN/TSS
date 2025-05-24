@@ -2,7 +2,7 @@
 
 ## Descriere generala
 
-Acest proiect Java implementeaza un sistem simplu de criptare simetrica a mesajelor, impreuna cu o mai multe teste unitare si de mutatie. Codul include atat functii de criptare, cat si teste detaliate pentru validarea comportamentului corect.
+Acest proiect Java implementeaza un sistem simplu de criptare simetrica a mesajelor, impreuna cu mai multe teste unitare si de mutatie. Codul include atat functii de criptare, cat si teste detaliate pentru validarea comportamentului corect.
 
 ## Detalii tehnice
 
