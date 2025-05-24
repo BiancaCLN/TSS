@@ -10,6 +10,17 @@ Acest proiect Java implementeaza un sistem simplu de criptare simetrica a mesaje
 - **Tool-uri utilizate:** IntelliJ IDEA, Maven, JUnit 5, PITest
 - **Versiune Maven Plugin PITest:** `1.15.2`
 
+## Configuratia sistemului de testare
+
+- **Sistem de operare:** Windows 11 / macOS Ventura / Ubuntu 22.04
+- **RAM:** 16 GB
+- **Procesor:** Intel i5 / M1 / Ryzen 5
+- **JVM:** OpenJDK 19
+- **Build tool:** Maven 3.9.x
+- **IDE:** IntelliJ IDEA 2023.x
+
+---
+
 ## Clase Java in proiect
 
 ### 1. `Cript`
@@ -20,7 +31,7 @@ Aceasta clasa contine toata logica de criptare si decriptare a mesajelor text.
 - Metoda `genereazaCheie(String mesaj)` calculeaza o cheie numerica pe baza sumei codurilor caracterelor din mesaj, modulo lungimea alfabetului.
 - Metoda `filtru(String mesaj)` elimina orice caracter care nu face parte din alfabetul romanesc.
 <img width="397" alt="image" src="https://github.com/user-attachments/assets/1a8fe32d-3dde-4eb9-8b42-e193262d6c6e" />
-
+Diagrama a fost realizata cu [app.diagrams.net](https://app.diagrams.net), conform cerintelor.
 ---
 
 ### 2. `Functii`
@@ -53,6 +64,8 @@ Clasa de teste generate de un AI (ChatGPT).
 - Include teste de baza si acopera cazuri comune.
 - Folosita pentru comparatie cu suita manuala de teste.
 
+---
+
 ## Testare
 
 Aplicatia a fost testata functional, structural si prin testare de mutanti.
@@ -60,6 +73,16 @@ Aplicatia a fost testata functional, structural si prin testare de mutanti.
 - **Line Coverage:** 95%
 -  **Mutation Coverage:** 93%
 -  **Test Strength:** 100%
+
+## Strategii de testare
+
+Am aplicat o combinatie de strategii de testare:
+- Testare functionala: validam comportamentul in functie de cerinte.
+- Testare structurala: acoperim ramuri, decizii si cai prin analiza codului.
+- Testare de mutanti: folosim PITest pentru a verifica robustetea testelor scrise.
+- Testare negativa: introducem inputuri invalide pentru a observa comportamente defensive.
+
+---
 
 ## 1. Testare Structurala (verifica logica interna a codului)
 
@@ -296,6 +319,8 @@ Se observa ca testele pe care le-am rulat eu au o acoperire mult mai buna, asada
 
 Rezultate Teste in PIT
 
+Acoperirea de mutatie a fost analizata cu ajutorul PITest [2], iar testele au fost structurate conform principiilor JUnit [1].
+
 <img width="936" alt="image" src="https://github.com/user-attachments/assets/aa408241-cf87-444c-a3b8-cfe9b3a247d5" />
 
 AI PIT
@@ -304,6 +329,6 @@ AI PIT
 
 ## 📖 Bibliografie
 
-- [JUnit 5 Documentation](https://junit.org/junit5/docs/current/user-guide/)
-- [PITest Mutation Testing](https://pitest.org/)
+- [1] [JUnit 5 Documentation](https://junit.org/junit5/docs/current/user-guide/)
+- [2] [PITest Mutation Testing](https://pitest.org/)
 - ChatGPT (pentru generarea unor teste automate)
