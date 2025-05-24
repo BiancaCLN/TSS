@@ -41,7 +41,7 @@ Aceasta clasa contine toata logica de criptare si decriptare a mesajelor text.
 O clasa de testare pentru operatii pe stringuri:
 - `esteValid(String mesaj)` verifica daca un mesaj este valid.
 - `invers(String mesaj)` intoarce mesajul scris invers.
-- `lungime(String mesaj)` returneaza lungimea unui mesaj sau 0 daca este null.
+- `lungime(String mesaj)` returneaza lungimea unui mesaj sau 0 daca este null. Este creata pentru testare, ca sa evitam exceptiile de tip NullPointerException
 
 ---
 
