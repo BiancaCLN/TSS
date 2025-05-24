@@ -62,10 +62,13 @@ Aplicatia a fost testata functional, structural si prin testare de mutanti.
 -  **Test Strength:** 100%
 
 ## 1. Testare Structurala (verifica logica interna a codului)
-### 1. Transformare in graf orientat
+
+---
+
+### 1.1 Transformare in graf orientat
 <img width="404" alt="image" src="https://github.com/user-attachments/assets/92795aac-e9c2-4f92-a491-c5586616764a" />
 
-### 2. Statement Coverage
+### 1.2 Statement Coverage
 
 Se verifica daca fiecare instructiune a fost executata cel putin o data.
 
@@ -81,7 +84,7 @@ Se verifica daca fiecare instructiune a fost executata cel putin o data.
 
 ---
 
-### 3. Branch / Decision Coverage
+### 1.3 Branch / Decision Coverage
 
 Se verifica daca fiecare decizie (if/for) ia ambele valori: true si false.
 
@@ -98,7 +101,7 @@ Se verifica daca fiecare decizie (if/for) ia ambele valori: true si false.
 
 ---
 
-### 4. Condition Coverage
+### 1.4 Condition Coverage
 
 Se testeaza fiecare sub-conditie dintr-o expresie compusa, sa fie atat true cat si false.
 
@@ -114,7 +117,7 @@ Se testeaza fiecare sub-conditie dintr-o expresie compusa, sa fie atat true cat 
 
 ---
 
-### 5. Condition/Decision Coverage
+### 1.5 Condition/Decision Coverage
 
 Se verifica atat conditiile individuale cat si rezultatul deciziei in ansamblu.
 
@@ -131,7 +134,7 @@ Se verifica atat conditiile individuale cat si rezultatul deciziei in ansamblu.
 
 ---
 
-### 6. Multiple Condition Coverage
+### 1.6 Multiple Condition Coverage
 
 Toate combinatiile posibile ale conditiilor individuale.
 
@@ -147,7 +150,7 @@ Toate combinatiile posibile ale conditiilor individuale.
 
 ---
 
-### 7. MC/DC (Modified Condition/Decision Coverage)
+### 1.7 MC/DC (Modified Condition/Decision Coverage)
 
 Verifica daca fiecare conditie influenteaza rezultatul deciziei in mod individual.
 
@@ -163,7 +166,7 @@ Verifica daca fiecare conditie influenteaza rezultatul deciziei in mod individua
 
 ---
 
-### 8. Testarea circuitelor independente
+### 1.8 Testarea circuitelor independente
 
 Baza de circuite acoperita cu:
 
@@ -183,7 +186,7 @@ Baza de circuite acoperita cu:
 
 ---
 
-### 9. Path Coverage
+### 1.9 Path Coverage
 
 Am acoperit toate caile logice importante:
 
@@ -212,7 +215,76 @@ Exemplu functionare test 1:
 | 5        | Decriptare text corupt              | Cod criptat modificat               | Decriptare greșită                     | Decriptare eșuată |    
 <img width="839" alt="image" src="https://github.com/user-attachments/assets/0baa7151-e8d4-44ae-90cd-7928d2dde439" />
 
-### 2. Testare Functionala --continuare
+### 2. Testare Functionala 
+
+---
+
+### 2.1 Partitionare de echivalenta (Equivalence Partitioning)
+
+### Clase de echivalenta (dupa specificatie)
+
+- E1: mesaj valid, cu caractere acceptate
+- E2: mesaj valid, contine caractere invalide
+- E3: mesaj gol
+- E4: mesaj null
+- E5: criptare valida, decriptare modificata
+- E6: mesaj valid, rezultat cheie controlat
+
+### Date de test
+
+| Test    | Intrare                    | Rezultat asteptat                      | Clasa echivalenta |
+|---------|-----------------------------|----------------------------------------|-------------------|
+| test1   | "Buna ziua! ..."            | mesajul decriptat este identic         | E1                |
+| test2   | "AaBbCc 123 .!?;"           | mesaj pastrat                          | E1                |
+| test3   | "Test@#$%"                  | caractere eliminate                    | E2                |
+| test5   | ""                          | criptare si decriptare pe mesaj gol    | E3                |
+| test6   | null                        | return null                            | E4                |
+| test8   | mesaj criptat corupt        | decriptare diferita                    | E5                |
+| test10  | mesaj = "abcdefgh"          | verificare cheie generata              | E6                |
+
+---
+
+### 2.2 Analiza valorilor de frontiera (Boundary Value Analysis)
+
+### Valori de frontiera:
+
+- mesaj: null, "", 1 caracter, lungime lunga
+- cheie: 0, max ALFABET
+- pozitie: caracter la inceput/sfarsit
+
+| Test    | Conditie testata                 | Valoare frontiera | Rezultat asteptat              |
+|---------|----------------------------------|-------------------|-------------------------------|
+| test6   | mesaj null                       | null              | return null                   |
+| test5   | mesaj gol                        | ""                | ""                            |
+| test12  | un singur caracter               | "a"               | a                            |
+| test13  | codificare + decriptare          | "" / null         | null                          |
+| test10  | cheie = suma % ALFABET           | calcul explicit   | cheie corecta                 |
+
+---
+
+### 2.3 Partitionare in categorii (Category Partitioning)
+
+### Categorii si alternative
+
+| Parametru | Categorie           | Alternative                          |
+|-----------|---------------------|---------------------------------------|
+| mesaj     | lungime             | null, "", 1, mediu, lung              |
+| caractere | validitate          | toate valide, toate invalide, mix    |
+| criptat   | integritate         | valid, corupt                        |
+| output    | corectitudine       | egal cu input, diferit, null         |
+
+### Combinatii acoperite prin teste
+
+| Test    | Combinatie descrisa                               |
+|---------|----------------------------------------------------|
+| test1   | mesaj valid, caractere valide, output corect       |
+| test3   | caractere mixte, output filtrat                    |
+| test6   | mesaj null, output null                            |
+| test8   | mesaj valid, criptat modificat, output incorect    |
+| test12  | mesaj scurt, valid, output corect                  |
+
+---
+
 
 ## AI in testare
 
