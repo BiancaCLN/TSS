@@ -53,7 +53,7 @@ O clasa de testare pentru operatii pe stringuri:
 
 ### 4. `MesajTest`
 
-Clasa de teste scrisa manual pentru testare functionala si structurala.
+Clasa de teste scrisa de mine pentru testare functionala si structurala.
 - Verifica simetria criptare-decriptare.
 - Testeaza comportamentul metodelor pentru cazuri limita (null, siruri goale).
 - Include teste de regresie si mutanti.
@@ -64,7 +64,7 @@ Clasa de teste scrisa manual pentru testare functionala si structurala.
 
 Clasa de teste generate de un AI (ChatGPT).
 - Include teste de baza si acopera cazuri comune.
-- Folosita pentru comparatie cu suita manuala de teste.
+- Folosita pentru comparatie cu clasa de teste scrisa de mine.
 
 ---
 
