@@ -9,7 +9,7 @@ Acest proiect Java implementeaza un sistem simplu de criptare simetrica a mesaje
 - **Limbaj:** Java 19
 - **Tool-uri utilizate:** IntelliJ IDEA, Maven, JUnit 5, PITest
 - **Versiune Maven Plugin PITest:** `1.15.2`
-- **Am utilizat IntelliJ IDEA direct pe MacOS, fara masina virtuala.
+- **Am utilizat IntelliJ IDEA direct pe MacOS, fara masina virtuala.**
   
 ## Configuratia sistemului de testare
 
