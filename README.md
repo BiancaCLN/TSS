@@ -316,13 +316,13 @@ Exemplu functionare test 1:
 
 Pentru evaluare comparativa:
 - Am generat o suita de teste `MesajTestAI.java` cu ChatGPT.
-- Le-am comparat cu testele scrise manual (`MesajTest.java`).
+- Le-am comparat cu testele scrise de mine (`MesajTest.java`).
 
 Se observa ca testele pe care le-am rulat eu au o acoperire mult mai buna, asadar cu rezultate mult mai bune. Am incercat sa acopar fiecare mutant si se observa ca AI-ul are mai multe probleme.
 
-Rezultate Teste in PIT
-
 Acoperirea de mutatie a fost analizata cu ajutorul PITest [2], iar testele au fost structurate conform principiilor JUnit [1].
+
+Rezultate Teste in PIT
 
 <img width="936" alt="image" src="https://github.com/user-attachments/assets/aa408241-cf87-444c-a3b8-cfe9b3a247d5" />
 
