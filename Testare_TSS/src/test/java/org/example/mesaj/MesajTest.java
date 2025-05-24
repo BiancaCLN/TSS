@@ -167,4 +167,18 @@ public class MesajTest {
         String rezultat = Functii.invers(null);
         assertNull(rezultat);
     }
+    
+    @Test
+    void testLungime() {
+        assertEquals(3, Functii.lungime("abc"), "Lungimea ar trebui sa fie 3");
+        assertEquals(0, Functii.lungime(""), "Lungimea unui string gol ar trebui sa fie 0");
+        assertEquals(0, Functii.lungime(null), "Lungimea null ar trebui sa fie 0 fara exceptie");
+    }
+
+    @Test
+    void testInversLimita() {
+        assertEquals("a", Functii.invers("a"));
+        assertEquals("ba", Functii.invers("ab"));
+        assertFalse(Functii.invers("abc").isEmpty());
+    }
 }
