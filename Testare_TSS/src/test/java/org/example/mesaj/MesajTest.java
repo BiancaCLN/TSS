@@ -145,26 +145,18 @@ public class MesajTest {
     }
     @Test
     void testMainExecutaFaraExceptii() {
-        String[] args = {};  // sau orice parametru dorești
+        String[] args = {}; 
         Main.main(args);
-        // Nu testăm output, doar că nu aruncă excepții
     }
     @Test
     void testMainOutput() {
-        // Capturează System.out
         ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         PrintStream originalOut = System.out;
         System.setOut(new PrintStream(outContent));
-
-        // Rulează main()
         Main.main(new String[]{});
-
-        // Restaurare System.out
         System.setOut(originalOut);
-
         String output = outContent.toString().trim();
 
-        // Verifică dacă conține toate liniile importante
         assertTrue(output.contains("Mesaj original"), "Nu s-a afișat mesajul original");
         assertTrue(output.contains("Mesaj criptat"), "Nu s-a afișat mesajul criptat");
         assertTrue(output.contains("Mesaj decriptat"), "Nu s-a afișat mesajul decriptat");
