@@ -31,6 +31,7 @@ Aceasta clasa contine toata logica de criptare si decriptare a mesajelor text.
 - Metoda `genereazaCheie(String mesaj)` calculeaza o cheie numerica pe baza sumei codurilor caracterelor din mesaj, modulo lungimea alfabetului.
 - Metoda `filtru(String mesaj)` elimina orice caracter care nu face parte din alfabetul romanesc.
 <img width="397" alt="image" src="https://github.com/user-attachments/assets/1a8fe32d-3dde-4eb9-8b42-e193262d6c6e" />
+
 Diagrama a fost realizata cu [app.diagrams.net](https://app.diagrams.net), conform cerintelor.
 ---
 
