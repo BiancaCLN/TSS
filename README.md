@@ -311,6 +311,26 @@ Exemplu functionare test 1:
 
 ---
 
+### 3. Testare negativa
+
+Sunt acoperite cazuri speciale precum:
+- mesaj `null` ⇒ test6
+- mesaj gol ⇒ test5
+- decriptare din input corupt ⇒ test8
+
+Comportamentele defensive sunt validate prin verificări explicite ale valorilor returnate, precum compararea cu null sau rezultate așteptate.
+
+---
+
+### 4. Testare de mutanti
+
+PITest a fost folosit pentru a genera mutanti si a masura eficienta testelor.
+- Mutation Coverage: 93%
+- Test Strength: 100%
+
+Rezultatele indica faptul ca majoritatea mutantilor au fost detectati si eliminati de testele scrise de mine.
+
+---
 
 ## AI in testare
 
