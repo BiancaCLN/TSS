@@ -28,10 +28,10 @@ Acest proiect Java implementeaza un sistem simplu de criptare simetrica a mesaje
 ### 1. `Cript`
 
 Aceasta clasa contine toata logica de criptare si decriptare a mesajelor text.  
-- Metoda `codifica(String mesaj)` cripteaza mesajul, pe baza unei chei generate din suma caracterelor.
-- Metoda `decodifica(String criptat)` decripteaza mesajul, extrage mesajul original.
 - Metoda `genereazaCheie(String mesaj)` calculeaza o cheie numerica pe baza sumei codurilor caracterelor din mesaj, modulo lungimea alfabetului.
 - Metoda `filtru(String mesaj)` elimina orice caracter care nu face parte din alfabetul romanesc.
+- Metoda `codifica(String mesaj)` cripteaza mesajul, pe baza unei chei generate din suma caracterelor.
+- Metoda `decodifica(String criptat)` decripteaza mesajul, extrage mesajul original.
 <img width="397" alt="image" src="https://github.com/user-attachments/assets/1a8fe32d-3dde-4eb9-8b42-e193262d6c6e" />
 
 ---
