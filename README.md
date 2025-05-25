@@ -235,7 +235,8 @@ Exemplu functionare test 1:
 | 3        | Codificare NULL                     | null                                | null                                   | null              |
 | 4        | Codificare mesaj cu simboluri       | "Test@#$%^"                          | Doar "Test" codificat                  | Doar "Test"       | 
 | 5        | Decriptare text corupt              | Cod criptat modificat               | Decriptare gresita                     | Decriptare esuata |    
-<img width="839" alt="image" src="https://github.com/user-attachments/assets/0baa7151-e8d4-44ae-90cd-7928d2dde439" />
+<img width="852" alt="image" src="https://github.com/user-attachments/assets/ba287ece-6ddd-4ca7-99ab-6eafbeecd03d" />
+
 
 ### 2. Testare Functionala 
 
