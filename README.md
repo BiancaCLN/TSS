@@ -132,10 +132,15 @@ Se testeaza fiecare sub-conditie dintr-o expresie compusa, sa fie atat true cat 
 
 ### Tabel Condition Coverage
 
-| Test       | Conditie                       | Valori testate (true/false) |
-|------------|--------------------------------|------------------------------|
-| test6/1     | mesaj == null                  | true / false                |
-| test2/9    | index != -1                    | true / false                 |
+
+| Test   | Sub-conditie              | Valori testate (true / false) | Comentariu                        |
+|--------|---------------------------|-------------------------------|-----------------------------------|
+| test13 | criptat == null           | true                          | null ⇒ se evalueaza imediat      |
+| test5  | criptat == null           | false                         | mesaj gol                         |
+| test1  | criptat == null           | false                         | mesaj normal                      |
+| test5  | criptat.length() == 0     | true                          | sirul este gol                    |
+| test1  | criptat.length() == 0     | false                         | sirul are conținut                |
+
 
 **Acoperire:** 100% (fiecare sub-conditie a fost testata)
 
@@ -152,7 +157,7 @@ Se verifica atat conditiile individuale cat si rezultatul deciziei in ansamblu.
 |--------|----------------------|----------------------------|-------------------|-------------------------|
 | test13 | true                 | –                          | true              | null ⇒ return          |
 | test5  | false                | true                       | true              | mesaj gol              |
-| test1  | false                | false                      | false             | se continuă execuția   |
+| test1  | false                | false                      | false             | se continuă executia   |
 
 **Acoperire:** 100%
 
