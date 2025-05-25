@@ -134,8 +134,7 @@ Se testeaza fiecare sub-conditie dintr-o expresie compusa, sa fie atat true cat 
 
 | Test       | Conditie                       | Valori testate (true/false) |
 |------------|--------------------------------|------------------------------|
-| test6      | mesaj == null                  | true                         |
-| test1      | mesaj == null                  | false                        |
+| test6/1     | mesaj == null                  | true / false                |
 | test2/9    | index != -1                    | true / false                 |
 
 **Acoperire:** 100% (fiecare sub-conditie a fost testata)
