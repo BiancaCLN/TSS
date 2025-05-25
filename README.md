@@ -97,7 +97,6 @@ Am aplicat o combinatie de strategii de testare:
 
 Se verifica daca fiecare instructiune a fost executata cel putin o data.
 
-### Tabel Statement Coverage
 
 | Test                | Input                                   | Rezultat             | Instructiuni acoperite          |
 |---------------------|-----------------------------------------|----------------------|----------------------------------|
@@ -113,7 +112,6 @@ Se verifica daca fiecare instructiune a fost executata cel putin o data.
 
 Se verifica daca fiecare decizie (if/for) ia ambele valori: true si false.
 
-### Tabel Branch Coverage
 
 | Test       | Decizie                          | Valoare evaluata | Ramura executata                  |
 |------------|----------------------------------|------------------|------------------------------------|
@@ -130,7 +128,6 @@ Se verifica daca fiecare decizie (if/for) ia ambele valori: true si false.
 
 Se testeaza fiecare sub-conditie dintr-o expresie compusa, sa fie atat true cat si false.
 
-### Tabel Condition Coverage
 
 
 | Test   | Sub-conditie              | Valori testate (true / false) | Comentariu                        |
@@ -150,8 +147,6 @@ Se testeaza fiecare sub-conditie dintr-o expresie compusa, sa fie atat true cat 
 
 Se verifica atat conditiile individuale cat si rezultatul deciziei in ansamblu.
 
-### Tabel Condition/Decision Coverage
-
 
 | Test   | C1: criptat == null | C2: criptat.length() == 0 | Rezultat decizie | Comentariu             |
 |--------|----------------------|----------------------------|-------------------|-------------------------|
@@ -166,8 +161,6 @@ Se verifica atat conditiile individuale cat si rezultatul deciziei in ansamblu.
 ### 1.6 Multiple Condition Coverage
 
 Toate combinatiile posibile ale conditiilor individuale.
-
-### Tabel Multiple Conditions
 
 
 | Test    | C1: criptat == null | C2: criptat.length() == 0 | C1 \|\| C2 | Comentariu                          |
@@ -185,7 +178,6 @@ Toate combinatiile posibile ale conditiilor individuale.
 
 Verifica daca fiecare conditie influenteaza rezultatul deciziei in mod individual.
 
-### Tabel MC/DC
 
 | Test       | C1: criptat == null | C2: criptat.length()==0 | Rezultat | Demonstratie Influenta          |
 |------------|----------------------|--------------------------|----------|----------------------------------|
@@ -205,7 +197,6 @@ Baza de circuite acoperita cu:
 - `test12`: un caracter → o singura iteratie
 - `test1`: mesaj lung → bucla se repeta
 
-### Tabel Circuite
 
 | Test       | Caz circuit                      | Comportament bucla     |
 |------------|----------------------------------|-------------------------|
@@ -221,7 +212,6 @@ Baza de circuite acoperita cu:
 
 Am acoperit toate caile logice importante:
 
-### Tabel Cale
 
 | Test       | Cale parcursa                              | Comentariu                        |
 |------------|---------------------------------------------|-----------------------------------|
