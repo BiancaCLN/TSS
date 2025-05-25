@@ -230,11 +230,11 @@ Exemplu functionare test 1:
 
 | Nr. Test | Descriere                           | Input                               | Asteptat                               | Rezultat          |
 |----------|-------------------------------------|-------------------------------------|----------------------------------------|-------------------|
-| 1        | Codificare + decodificare simetrică | "Salut, Ana! Ne vedem la 18:30."    | Mesajul inițial filtrat                | Bine decodificat  |
+| 1        | Codificare + decodificare simetrică | Bună ziua! Ne vedem mâine la ora 15:40  | Mesajul initial filtrat                | Bine decodificat  |
 | 2        | Validare mesaj gol                  | ""                                  | Invalid                                | Invalidat corect  | 
 | 3        | Codificare NULL                     | null                                | null                                   | null              |
-| 4        | Codificare mesaj cu simboluri       | "Test@#$%"                          | Doar "Test" codificat                  | Doar "Test"       | 
-| 5        | Decriptare text corupt              | Cod criptat modificat               | Decriptare greșită                     | Decriptare eșuată |    
+| 4        | Codificare mesaj cu simboluri       | "Test@#$%^"                          | Doar "Test" codificat                  | Doar "Test"       | 
+| 5        | Decriptare text corupt              | Cod criptat modificat               | Decriptare gresita                     | Decriptare esuata |    
 <img width="839" alt="image" src="https://github.com/user-attachments/assets/0baa7151-e8d4-44ae-90cd-7928d2dde439" />
 
 ### 2. Testare Functionala 
