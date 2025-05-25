@@ -189,16 +189,16 @@ Verifica daca fiecare conditie influenteaza rezultatul deciziei in mod individua
 
 ---
 
-### 1.8 Testarea circuitelor independente
+### 1.8 Testarea drumurilor independente din graf
 
-Baza de circuite acoperita cu:
+Am acoperit cu testele:
 
 - `test5`: mesaj gol → bucla nu se executa
 - `test12`: un caracter → o singura iteratie
 - `test1`: mesaj lung → bucla se repeta
 
 
-| Test       | Caz circuit                      | Comportament bucla     |
+| Test       | Caz                      | Comportament bucla     |
 |------------|----------------------------------|-------------------------|
 | test5      | mesaj gol                        | 0 iteratii              |
 | test12     | un caracter                      | 1 iteratie              |
