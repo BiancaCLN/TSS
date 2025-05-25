@@ -139,7 +139,7 @@ Se testeaza fiecare sub-conditie dintr-o expresie compusa, sa fie atat true cat 
 | test5  | criptat == null           | false                         | mesaj gol                         |
 | test1  | criptat == null           | false                         | mesaj normal                      |
 | test5  | criptat.length() == 0     | true                          | sirul este gol                    |
-| test1  | criptat.length() == 0     | false                         | sirul are conținut                |
+| test1  | criptat.length() == 0     | false                         | sirul are continut                |
 
 
 **Acoperire:** 100% (fiecare sub-conditie a fost testata)
@@ -157,7 +157,7 @@ Se verifica atat conditiile individuale cat si rezultatul deciziei in ansamblu.
 |--------|----------------------|----------------------------|-------------------|-------------------------|
 | test13 | true                 | –                          | true              | null ⇒ return          |
 | test5  | false                | true                       | true              | mesaj gol              |
-| test1  | false                | false                      | false             | se continuă executia   |
+| test1  | false                | false                      | false             | se continua executia   |
 
 **Acoperire:** 100%
 
