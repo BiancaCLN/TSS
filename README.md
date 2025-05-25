@@ -91,7 +91,8 @@ Am aplicat o combinatie de strategii de testare:
 ---
 
 ### 1.1 Transformare in graf orientat
-<img width="404" alt="image" src="https://github.com/user-attachments/assets/92795aac-e9c2-4f92-a491-c5586616764a" />
+<img width="725" alt="image" src="https://github.com/user-attachments/assets/025e4ed6-2160-444a-a9d6-6e446426b063" />
+
 
 ### 1.2 Statement Coverage
 
