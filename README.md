@@ -147,12 +147,12 @@ Se verifica atat conditiile individuale cat si rezultatul deciziei in ansamblu.
 
 ### Tabel Condition/Decision Coverage
 
-| Test       | Decizie                              | Conditii                  | Decizie evaluata |
-|------------|---------------------------------------|---------------------------|------------------|
-| test6      | mesaj == null                         | true                      | true             |
-| test1      | mesaj == null                         | false                     | false            |
-| test13     | criptat == null || criptat.length()==0 | true || false            | true             |
-| test5      | criptat == null || criptat.length()==0 | false || true            | true             |
+
+| Test   | C1: criptat == null | C2: criptat.length() == 0 | Rezultat decizie | Comentariu             |
+|--------|----------------------|----------------------------|-------------------|-------------------------|
+| test13 | true                 | –                          | true              | null ⇒ return          |
+| test5  | false                | true                       | true              | mesaj gol              |
+| test1  | false                | false                      | false             | se continuă execuția   |
 
 **Acoperire:** 100%
 
