@@ -315,8 +315,6 @@ Sunt acoperite cazuri speciale precum:
 - mesaj gol ⇒ test5
 - decriptare din input corupt ⇒ test8
 
-Comportamentele defensive sunt validate prin verificări explicite ale valorilor returnate, precum compararea cu null sau rezultate așteptate.
-
 ---
 
 ### 4. Testare de mutanti
